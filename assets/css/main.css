@@ -15,7 +15,7 @@ html, body {
     padding: 0;
     background-color: #e7e7e7;
     font-family: sans-serif;
-   -webkit-font-smoothing: antialiased; 
+   -webkit-font-smoothing: antialiased;
 }
 
 body.loupe-active {
@@ -32,7 +32,7 @@ header {
     width: 100%;
     height: 90px;
    -moz-box-sizing: border-box;
-    box-sizing: border-box;   
+    box-sizing: border-box;
     text-align: right;
     z-index: 2;
 
@@ -233,7 +233,7 @@ header ul.gallery-meta li {
     padding: 90px 54px 78px 54px;
     width: 100%;
    -moz-box-sizing: border-box;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 div.thumbnails {
@@ -326,7 +326,7 @@ div.thumbnail img {
    -moz-transition: all .25s ease;
    -ms-transition: all .25s ease;
    -o-transition: all .25s ease;
-    transition: all .25s ease; 
+    transition: all .25s ease;
 }
 
 .thumbnail-size-sm div.thumbnail img {
@@ -423,7 +423,7 @@ div.thumbnail img {
     height: 100%;
     padding: 45px 0px 100px 0px;
    -moz-box-sizing: border-box;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 #loupeContainer div.side-navigation div.hotspot {
@@ -431,7 +431,7 @@ div.thumbnail img {
     width: 25%;
     height: 100%;
 
-   -webkit-user-select: none;   
+   -webkit-user-select: none;
    -moz-user-select: none;
    -ms-user-select: none;
    -o-user-select: none;
@@ -557,11 +557,11 @@ div.thumbnail img {
     width: 45px;
     height: 45px;
     cursor: pointer;
-   -webkit-user-select: none;   
+   -webkit-user-select: none;
    -moz-user-select: none;
    -ms-user-select: none;
    -o-user-select: none;
-    user-select: none; 
+    user-select: none;
 }
 
 #buttonPrev.disabled {
@@ -582,7 +582,7 @@ div.thumbnail img {
     width: 45px;
     height: 45px;
     cursor: pointer;
-   -webkit-user-select: none;   
+   -webkit-user-select: none;
    -moz-user-select: none;
    -ms-user-select: none;
    -o-user-select: none;
@@ -729,7 +729,7 @@ div.thumbnail img {
         width: 100px;
         height: 100px;
        -moz-box-sizing: border-box;
-        box-sizing: border-box; 
+        box-sizing: border-box;
     }
 
     .thumbnail-size-sm div.thumbnail div.image-container,
@@ -757,4 +757,12 @@ div.thumbnail img {
         max-height: 90px;
     }
 
+}
+
+.stock_img {
+    border: 5px solid #fff;
+    width: 10%;
+    margin: 2%;
+    height: auto;
+    min-width: 150px;
 }
