@@ -765,12 +765,18 @@ div.thumbnail img {
     margin: 2%;
     height: auto;
     min-width: 150px;
-    --a: 6deg; /* control the angle of rotation (the smaller, the better) */
     aspect-ratio: 1;
     border-radius: 20px;
+    --a: 4deg; /* control the angle of rotation (the smaller, the better) */
+}
+
+.thumb-img {
+    --a: 1deg;
+}
+
+.stock_img, .thumb-img {
     transform: perspective(400px) rotate3d(var(--r,1,-1),0,calc(var(--i,1)*var(--a)));
-    -webkit-mask:
-    linear-gradient(135deg,#000c 40%,#000,#000c 60%)
+    -webkit-mask: linear-gradient(135deg,#000c 40%,#000,#000c 60%)
     100% 100%/250% 250%;
     transition: .4s;
     cursor: pointer;
@@ -786,10 +792,12 @@ div.thumbnail img {
     linear-gradient(45deg,#000c 40%,#000,#000c 60%)
     0 100%/250% 250%;
 }
-.stock_img:hover {
+
+.stock_img:hover, .thumb-img:hover {
 --i: -1;
 -webkit-mask-position: 0 0;
 }
+
 .alt:hover {
 -webkit-mask-position: 100% 0;
 }
