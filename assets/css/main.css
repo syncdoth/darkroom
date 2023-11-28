@@ -721,7 +721,7 @@ div.thumbnail img {
     .has-header #thumbnailContainer {
         padding: 60px 0;
     }
-
+/*
     .thumbnail-size-sm div.thumbnail,
     .thumbnail-size-md div.thumbnail,
     .thumbnail-size-lg div.thumbnail {
@@ -755,7 +755,7 @@ div.thumbnail img {
     .thumbnail-size-lg div.thumbnail img {
         max-width: 90px;
         max-height: 90px;
-    }
+    } */
 
 }
 
